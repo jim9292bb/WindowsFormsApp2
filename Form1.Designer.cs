@@ -60,6 +60,7 @@
             this.txtCM.Name = "txtCM";
             this.txtCM.Size = new System.Drawing.Size(62, 22);
             this.txtCM.TabIndex = 2;
+            this.txtCM.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtCM_KeyUp);
             // 
             // txtIn
             // 
@@ -67,6 +68,7 @@
             this.txtIn.Name = "txtIn";
             this.txtIn.Size = new System.Drawing.Size(62, 22);
             this.txtIn.TabIndex = 4;
+            this.txtIn.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtIn_KeyUp);
             // 
             // label2
             // 
@@ -83,6 +85,7 @@
             this.txtYard.Name = "txtYard";
             this.txtYard.Size = new System.Drawing.Size(62, 22);
             this.txtYard.TabIndex = 8;
+            this.txtYard.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtYard_KeyUp);
             // 
             // label3
             // 
@@ -99,6 +102,7 @@
             this.txtKM.Name = "txtKM";
             this.txtKM.Size = new System.Drawing.Size(62, 22);
             this.txtKM.TabIndex = 6;
+            this.txtKM.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtKM_KeyUp);
             // 
             // label4
             // 
@@ -115,6 +119,7 @@
             this.txtFt.Name = "txtFt";
             this.txtFt.Size = new System.Drawing.Size(62, 22);
             this.txtFt.TabIndex = 12;
+            this.txtFt.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtFt_KeyUp);
             // 
             // label5
             // 
@@ -131,6 +136,7 @@
             this.txtM.Name = "txtM";
             this.txtM.Size = new System.Drawing.Size(62, 22);
             this.txtM.TabIndex = 10;
+            this.txtM.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtM_KeyUp);
             // 
             // label6
             // 
@@ -165,6 +171,7 @@
             this.btnAllClear.TabIndex = 15;
             this.btnAllClear.Text = "清除";
             this.btnAllClear.UseVisualStyleBackColor = true;
+            this.btnAllClear.Click += new System.EventHandler(this.btnAllClear_Click);
             // 
             // Form1
             // 
